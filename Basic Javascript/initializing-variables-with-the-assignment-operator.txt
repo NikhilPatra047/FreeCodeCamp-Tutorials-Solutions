@@ -1,0 +1,10 @@
+// A good coding practice is to initialise the variable the moment it is created. 
+
+var a = 9; 
+
+/*
+ var a; 
+ a = 9; 
+
+ Avoid this kind of syntax as much as possible.  
+*/

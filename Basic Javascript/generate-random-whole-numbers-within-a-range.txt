@@ -1,0 +1,7 @@
+function randomRange(myMin, myMax) {
+  const random = Math.random() * (myMax - myMin + 1) + myMin; 
+  return Math.floor(random);
+}
+
+// so it's always going to generate a value between [0, 1). 
+// so we want the upper bound to be max so what we do is max - min; 3 - 1 = 2 so now it is [0, 3) + min, [1, 4) hence now it is 1 to 3. 

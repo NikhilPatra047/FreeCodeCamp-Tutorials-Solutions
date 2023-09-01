@@ -1,0 +1,16 @@
+// Only change code below this line
+var a; //currently has the value undefined
+var b; //currently has the value undefined
+var c; //currently has the value undefined
+// Only change code above this line
+
+a = 5; 
+b = 10; 
+c = "I am a"; 
+
+a = a + 1;
+b = b + 5;
+c = c + " String!";
+
+// Performing mathematical operations with an undefined variable results in NaN - Not a number. 
+// Trying to concatenate a string with an undefined variable results in undefined string

@@ -1,0 +1,19 @@
+// Data are raw facts and figures that are meaningful to the computer. 
+
+/* 
+  8 different types of data types in JS: 
+    - number
+    - string 
+    - undefined 
+    - null 
+    - object  
+    - boolean 
+    - bigint ** 
+    - symbol **
+*/
+
+// Variables in JS are simply a reference to the data stored in the memory allowing developers to manipulate data dynamically. 
+
+// To create a variable, we use the var keyword. 
+
+var myName; 

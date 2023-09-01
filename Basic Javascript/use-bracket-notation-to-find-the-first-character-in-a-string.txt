@@ -1,0 +1,8 @@
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+
+// A string is nothing but an array of characters. Hence, one can use the bracket notation to access any character in a string literal. 

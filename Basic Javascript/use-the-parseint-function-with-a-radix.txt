@@ -1,0 +1,8 @@
+function convertToInteger(str) {
+  const parsedValue = parseInt(str, 2); 
+  return parsedValue; 
+}
+
+convertToInteger("10011");
+
+// parseInt takes two arguments  - one a literal string, and the other a radix or a base. So it converts a string into a number of a particular kind in the number system. so if the string is in binary, add 2 as 2 is the base for binary number system.

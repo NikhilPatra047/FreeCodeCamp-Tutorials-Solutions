@@ -1,0 +1,4 @@
+// string or string literal have the same meaning used to describe a series of characters. 
+
+var myFirstName = "Peter"; 
+var myLastName = "Parker"; 

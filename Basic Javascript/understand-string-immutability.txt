@@ -1,0 +1,9 @@
+// Setup
+let myStr = "Jello World";
+
+// Only change code below this line
+myStr = "Hello World"; // Change this line
+// Only change code above this line
+
+// String literals in JS are immutable meaning one cannot change individual characters in a string. In order to change the entire string one has to re-assign the variable a new string value. 
+

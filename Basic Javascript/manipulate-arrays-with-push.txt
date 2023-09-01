@@ -1,0 +1,8 @@
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+// With arrays declared as constants, though we can't change re-assign the array to a new value but we can definitely modify the existing array 
+
+myArray.push(["dog", 3]); 
+console.log(myArray);

@@ -1,0 +1,9 @@
+function rangeOfNumbers(startNum, endNum) {
+  if (startNum > endNum) {
+    return []; 
+  }
+  if (startNum === endNum) {
+    return [startNum];
+  }
+  return [startNum, ...rangeOfNumbers(startNum + 1, endNum)];
+};

@@ -1,0 +1,13 @@
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  const outerWear = "sweater"; 
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
+
+// Even though both have the same variable names but their scopes are different. As a result, they are different as well. 

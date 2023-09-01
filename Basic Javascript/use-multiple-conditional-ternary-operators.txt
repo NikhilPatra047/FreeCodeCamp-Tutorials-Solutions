@@ -1,0 +1,6 @@
+function checkSign(num) {
+  const type = (num > 0)? "positive": (num < 0)? "negative": "zero"; 
+  return type;
+}
+
+checkSign(10);

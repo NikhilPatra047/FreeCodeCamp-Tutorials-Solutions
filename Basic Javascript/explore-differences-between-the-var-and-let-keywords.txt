@@ -1,0 +1,7 @@
+let catName = "Oliver";
+let catSound = "Meow!";
+
+// One of the biggest problems with using the var keyword is the value assigned to a var variable can be overwritten. 
+
+// With variables declared using let keyword, variables cannot be overwritten. 
+

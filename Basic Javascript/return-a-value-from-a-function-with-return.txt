@@ -1,0 +1,7 @@
+const FIVE = 5; 
+
+function timesFive(val) {
+  return val * FIVE;  
+}
+
+timesFive(2);
