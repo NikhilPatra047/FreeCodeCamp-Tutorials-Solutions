@@ -1,0 +1,6 @@
+let a = 8, b = 6;
+// Only change code below this line
+[b, a] = [a, b]; 
+
+// Array destructuring can be used to swap possible values too. 
+
