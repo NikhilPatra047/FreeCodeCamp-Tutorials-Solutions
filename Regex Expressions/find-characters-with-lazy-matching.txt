@@ -1,0 +1,6 @@
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*?>/; // Change this line
+let result = text.match(myRegex);
+console.log(result);
+
+// Regular expressions are greedy by default meaning they would find the longest part of the string that fits the regex pattern. So to turn it into lazy matching, use the "?" operator that returns the smallest substring that matches the pattern. 

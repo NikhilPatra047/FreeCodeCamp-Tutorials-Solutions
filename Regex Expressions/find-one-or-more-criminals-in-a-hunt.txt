@@ -1,0 +1,6 @@
+const str = "C";
+let reCriminals = /C+/g; // Change this line
+let result = str.match(reCriminals);
+console.log(result)
+
+// By default all regular expressions are greedy by default. In order to turn them into lazy matching use the "?" operator. 

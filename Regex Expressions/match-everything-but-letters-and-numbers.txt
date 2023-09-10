@@ -1,0 +1,7 @@
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W+/g; // Change this line
+let result = quoteSample.match(nonAlphabetRegex).length;
+console.log(result);
+
+// [a-z0-9]. Opposite of this is [^a-z0-9]
+// opposite of \w is \W. which means the same as above. 

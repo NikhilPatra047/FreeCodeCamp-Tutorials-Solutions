@@ -1,0 +1,5 @@
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // Change this line
+let result = calRegex.test(rickyAndCal);
+console.log(result);
+// ^ outside of the character set can be used to find the occurence of a pattern in the beginning of a string. 

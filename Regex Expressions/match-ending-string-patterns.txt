@@ -1,0 +1,8 @@
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; // Change this line
+let result = lastRegex.test(caboose);
+
+console.log(result);
+
+// While ^ is used to search for patterns in the beginning of the string, $ is used to search for pattenrs at the end of the strings. 
+
