@@ -1,0 +1,13 @@
+function Dog(name) {
+  this.name = name;
+}
+Dog.prototype.numLegs = 4;
+
+let beagle = new Dog("Snoopy");
+
+Dog.prototype.isPrototypeOf(beagle);  // yields true
+
+// Fix the code below so that it evaluates to true
+Object.prototype.isPrototypeOf(Dog.prototype); 
+
+// All Objects have a prototype. Even prototype in itself is an object so it must have a prototype too. 

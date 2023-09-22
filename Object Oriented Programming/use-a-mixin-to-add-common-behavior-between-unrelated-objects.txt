@@ -1,0 +1,23 @@
+let bird = {
+  name: "Donald",
+  numLegs: 2
+};
+
+let boat = {
+  name: "Warrior",
+  type: "race-boat"
+};
+
+// Mixins are best for adding common properties to two or more unrelated objects. 
+
+// Only change code below this line
+let glideMixin = function(obj) {
+  obj.glide = function() {
+    console.log("Yes! I can glide"); 
+  };
+}
+
+// a mixin is a function that takes in an object as an argument and adds a certain property to that object. 
+
+glideMixin(bird); 
+glideMixin(boat); 

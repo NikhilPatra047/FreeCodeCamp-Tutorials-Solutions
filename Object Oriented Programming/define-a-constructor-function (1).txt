@@ -1,0 +1,7 @@
+function Dog() {
+  this.name = "Chop"; 
+  this.color = "Black"; 
+  this.numLegs = 4; 
+}
+
+// A constructor is simply a function that creates new objects. These objects have certain properties and behaviours that model a real-world entity. 

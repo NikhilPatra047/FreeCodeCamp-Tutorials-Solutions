@@ -1,0 +1,6 @@
+let dog = {
+  name: "Tommy", 
+  numLegs: 4
+};
+
+// Object consists of qualities or properties, that models real world objects. 
