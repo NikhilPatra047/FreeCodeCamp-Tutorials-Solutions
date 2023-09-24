@@ -1,0 +1,7 @@
+// Only change code below this line
+function urlSlug(title) {
+  const regex = /\s+/; 
+  return (title.trim().toLowerCase().split(regex).join("-"));
+}
+// Only change code above this line
+urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");

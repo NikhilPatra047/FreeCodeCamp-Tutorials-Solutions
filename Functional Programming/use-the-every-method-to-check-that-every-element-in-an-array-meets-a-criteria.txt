@@ -1,0 +1,11 @@
+function checkPositive(arr) {
+  // Only change code below this line
+  return arr.every(function(item) {
+    return item > 0; 
+  }); 
+
+  // This will return true if all elements in an array satisfy a condition or false if any one of them fails to satisfy the condition. 
+  // Only change code above this line
+}
+
+checkPositive([1, 2, 3, -4, 5]);

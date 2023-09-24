@@ -1,0 +1,6 @@
+function nonMutatingSplice(cities) {
+  return cities.slice(0, 3); 
+}
+
+const cities = ["Chicago", "Delhi", "Islamabad", "London", "India", "Berlin"];
+nonMutatingSplice(cities);

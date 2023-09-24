@@ -1,0 +1,11 @@
+Array.prototype.myFilter = function(callback) {
+  const newArray = [];
+  // Only change code below this line
+  this.forEach((item, index, original) => {
+    if (callback(item, index, original)) {
+      newArray.push(item); 
+    }
+  })
+  // Only change code above this line
+  return newArray;
+};
